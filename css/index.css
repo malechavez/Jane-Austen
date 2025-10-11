@@ -264,7 +264,12 @@ footer{
 
 .redes{
     width: 25%;
-    color: #8C523B;
+}
+
+.redes i {
+    font-size: 40px; 
+    color: #8C523B; 
+    margin: 10px; 
 }
 
 @media only screen and (max-width: 720px){
