@@ -1,9 +1,20 @@
-Este proyecto es una página web informativa dedicada a Jane Austen, la reconocida autora inglesa. La web está diseñada para ofrecer informacion sobre su vida, obras y legado literario.
-Contenido
-Biografía: Información sobre la vida y trayectoria de Jane Austen.
+# Página Web de Jane Austen
 
-Obras: Presentación de sus principales novelas, con imágenes, sinopsis y análisis.
+Este proyecto es una página web informativa dedicada a Jane Austen, la reconocida autora inglesa. Además de ofrecer información sobre su vida y obra, incluye una tienda para adquirir productos relacionados. La web está diseñada para quienes quieran aprender sobre Jane Austen y explorar sus obras.
 
-Adaptaciones: Información sobre las adaptaciones cinematográficas y televisivas de sus obras.
+❤️Contenido
 
-Legado: Reflexión sobre la influencia de Jane Austen en la literatura y la cultura contemporánea.
+👩Biografía: Información sobre la vida y trayectoria de Jane Austen.
+
+📚Obras: Presentación de sus principales novelas, con imágenes, sinopsis y análisis.
+
+📖Legado: Reflexión sobre la influencia de Jane Austen en la literatura y la cultura contemporánea.
+
+💰Tienda: diversos productos relacionados a ella y sus obras
+
+
+## Tecnologías
+- HTML5
+- CSS3 (Flexbox, Media Queries)
+- Tipografías personalizadas (Fleur De Leah, Quintessential)
+
