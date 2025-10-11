@@ -1,99 +1,296 @@
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Quintessential&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #CFD4CB;
-}
-img{
-    width: 20%;
-}
-.portada img {
-    display: block;
-    margin: 0 auto; /* centra horizontalmente */
-    max-width: 100%;
-    height: auto;
-}
-h3{
-    color: #C47C72;
-    font-family:"Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    background-color: #E9CF99;
 }
 
-h4{
-    color: #7E97AA;
-    font-family:"Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
+/* Header */
+.logo-container{
+    text-align: center;
+    background-color: #8C523B;
+}
+.logo img {
+    width: 5%;
+    height: 5%;
 }
 
-p{
-    color: #595A4C;
-    font-family: "Quintessential",Verdana, Geneva, Tahoma, sans-serif;
+.menu{
+    background-color: #43231B;
 }
 
-h1{
-    color: #595A4C;
-    font-family:"Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
-}
-
-.video{
-    width: 55%;
-    height: 350px;
-}
-
-.video iframe{  
-    width: 100%;
-    width: 100%;
-
-}
-
-.contenedor{
+.lista{
+    list-style-type: none;
     display: flex;
-    gap: 20px;
-    width: 100%;
-    align-items: flex-start;
-}
-
-.contenedor img {
-    width: 20%;
-    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
+.link{
+    text-decoration: none;
+    color: #8F8360 ;
+    font-size: clamp(16px, 4vw, 32px);
+}
+
+
+/* Main */
+
+/* Frase de inicio*/
 #inicio{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 20px;
 }
 
 #inicio img {
     width: 30%;
+}
+
+.frase {
+    width: 70%;
+    font-size: clamp(32px, 6vw, 64px);;
+    color: #43231B;
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Obras y legado*/
+.obra-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.obra-img{
+    flex: 1;
+    padding: 15px;
+}
+
+.obra-img img {
+    width: 70%;
     height: auto;
 }
 
-#inico h3{
-    width: 65%;
-    font-size: 1.5rem;
-    line-height: 1.4;
+.obra-texto{
+    flex: 1.5;
+}
+
+.encabezado{
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    padding: 15px;
+    color: #3C3316;
+
+}
+
+.titulo{
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 15px;
+    color: #8C523B;
+
+}
+
+.subtitulo{
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color: #43231B;
+}
+
+p{
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    color: #43231B;
+    padding: 15px;
+}
+
+/* Tienda */
+
+.prod-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.prod-item{
+    border: 2px solid #8F8360;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.item-tit{
+    color: #43231B;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-card{
+    width: 280px;
+}
+
+.precio{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #8C523B;
 }
 
 
-/*.obra{
-    display: grid;
-    grid-template-columns: 30% 65%;
-    gap: 20px;
-    margin-bottom: 40px;
-    align-items: start;
-}
-.obra h3{
-    grid-column: 1/-1;
-    margin-bottom: 20px;
+.descripcion{
+    width: 280px;
+    margin-bottom: 8px;
+    color: #8C523B;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.obra img{
-    width: 100%;
-    height: auto;
+.off{
+    color: #EEAC7E;
 }
 
-.obra h4, .obra p {
-    margin: 0 0 10px 0;
-}*/
+.boton{
+    text-align: center;
+}
+
+.btn-agregar{
+    background-color: #8F8360;
+    color: #43231B;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.btn-agregar:hover{
+    background-color: #EEAC7E;
+}
+
+/*Contacto*/
+
+.contacto{
+    background-color: #EEAC7E;
+    color: #43231B;
+}
+.cont-title{
+    color: #8C523B;
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(64px, 8vw, 64px);
+    text-align: center;
+}
+
+.text-cont{
+    font-size: clamp(32px, 4vw, 24px);
+    text-align: center;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-container{
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+}
+
+.formulario{
+    background-color:#8F8360;
+    font-size: 18px;
+    border: 2px solid #43231B;
+    border-radius: 4px;
+    width: 350px;
+    margin: auto;
+}
+
+input[type=text],[type=email], textarea{
+    color: #43231B;
+    border: none;
+    font-size: 16px;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+}
+
+input[type=text]{
+    margin: 10px;
+    border-bottom: 1px solid #50723C;
+}
+
+input[type=email]{
+    margin-bottom: 12px;
+    border-bottom: #50723C;
+}
+
+.mensaje{
+    margin-bottom: 32px;
+    border: 1px solid #50723C;
+    padding: 3px;
+}
+
+.btn-enviar{
+    margin-bottom: 32px;
+    margin-top: 12px;
+    padding: 8px;
+    background-color: #8F8360;
+    color: #43231B;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.btn-enviar:hover{
+    background-color: #EEAC7E;
+}
+
+footer{
+    background-color: #8F8360;
+    color: #3C3316;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.links-secu{
+    width: 25%;
+}
+
+.mapa{
+    width: 50%;;
+}
+
+.redes{
+    width: 25%;
+    color: #8C523B;
+}
+
+@media only screen and (max-width: 720px){
+    footer{
+        flex-direction: column;
+    }
+    .logo-container{
+        background-color: #8F8360;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .obra-container{
+        flex-direction: column;
+    }
+
+    .obra-img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .obra-img img{
+        width: 50%%;
+    }
+
+    .obra-texto{
+        padding: 10px;
+    }
+}
