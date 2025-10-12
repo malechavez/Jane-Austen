@@ -207,22 +207,29 @@ p{
     margin: auto;
 }
 
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 input[type=text],[type=email], textarea{
     color: #43231B;
     border: none;
     font-size: 16px;
     font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
     padding: 6px;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px;
 }
 
 input[type=text]{
-    margin: 10px;
     border-bottom: 1px solid #50723C;
 }
 
 input[type=email]{
-    margin-bottom: 12px;
-    border-bottom: #50723C;
+    border-bottom: 1px solid #50723C;
 }
 
 .mensaje{
