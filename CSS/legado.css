@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Quintessential&display=swap');
 
 body {
-    background-color: #E9CF99;
+    background-color: #8F8360;
 }
 
 .navbar {
@@ -17,14 +17,89 @@ body {
     color: #E9CF99 !important; 
 }
 /*legado*/
-.encabezado-legado{
-    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
-    padding: 3%;
+.encabezado-legado {
     color: #43231B;
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(32px, 6vw, 64px);
+    padding: 1%;
+    width: 90%;
+    font-weight: bolder;
+    text-align: center;
 }
 
-.texto-legado{
-    font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;
-    padding: 3%;
-    color: #43231B;
+.leg {
+    border: none;
+    box-shadow: 0 5px 7px #43231B;
+    border-radius: 8px;
+    background-color: #8C523B;
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    width: 90%;
 }
+
+.subtitulo {
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    color: #E9CF99;
+    font-size: clamp(28px, 6vw, 48px);
+    font-weight: lighter;
+    text-align: center;
+}
+
+.texto-leg {
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    color: #E9CF99;
+    font-size: clamp(8px, 2vw, 20px);
+    text-align: justify;
+}
+
+.cita-texto {
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    color: #3C3316;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: clamp(8px, 2vw, 20px);
+}
+
+.foto {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    max-width: 100%;
+    height: auto;
+}
+/*Footer*/
+footer{
+    background-color: #8F8360;
+    color: #3C3316;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.links-secu{
+    width: 25%;
+}
+
+.mapa{
+    width: 50%;;
+}
+
+.redes{
+    width: 25%;
+}
+
+.redes i {
+    font-size: 40px; 
+    color: #8C523B; 
+    margin: 10px; 
+}
+
+

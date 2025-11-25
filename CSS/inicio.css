@@ -30,12 +30,39 @@ body {
 
 .frase {
     width: 70%;
-    font-size: clamp(32px, 6vw, 64px);;
+    font-size: clamp(32px, 6vw, 64px);
     color: #43231B;
     font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 
 
+/*Footer*/
+footer{
+    background-color: #8F8360;
+    color: #3C3316;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
+.links-secu{
+    width: 25%;
+}
+
+.mapa{
+    width: 50%;;
+}
+
+.redes{
+    width: 25%;
+}
+
+.redes i {
+    font-size: 40px; 
+    color: #8C523B; 
+    margin: 10px; 
+}
 
 

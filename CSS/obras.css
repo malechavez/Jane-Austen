@@ -25,5 +25,50 @@ body {
 #sinopsis-texto {
     color: #43231B;
     font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+}
+#analisis {
+    color: #43231B;
+    font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 110%;
 
 }
+
+.anio{
+    font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+    font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #8F8360;
+    color: #3C3316;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.links-secu{
+    width: 25%;
+}
+
+.mapa{
+    width: 50%;;
+}
+
+.redes{
+    width: 25%;
+}
+
+.redes i {
+    font-size: 40px; 
+    color: #8C523B; 
+    margin: 10px; 
+}
+
+

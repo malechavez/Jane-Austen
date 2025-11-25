@@ -52,3 +52,39 @@ h5.card-title {
     color: #43231B;
     padding: 2.5%
 }
+
+.precio {
+    font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;
+    color: #43231B;
+    font-size: 110%;
+
+}
+/*Footer*/
+footer{
+    background-color: #8F8360;
+    color: #3C3316;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.links-secu{
+    width: 25%;
+}
+
+.mapa{
+    width: 50%;;
+}
+
+.redes{
+    width: 25%;
+}
+
+.redes i {
+    font-size: 40px; 
+    color: #8C523B; 
+    margin: 10px; 
+}
+
+
