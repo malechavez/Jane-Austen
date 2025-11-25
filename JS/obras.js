@@ -3,14 +3,12 @@ const carrusel = document.getElementById('carouselExampleCaptions');
 const sinopsisDiv = document.getElementById('sinopsis-texto');
 
 function actualizarSinopsis() {
-    // A. Encontrar el título del libro actualmente ACTIVO
-    // Buscar el elemento con la clase 'active' dentro del carrusel, y luego su h5
+    //Encontrar el título del libro actualmente ACTIVO
+    //Buscar el elemento con la clase 'active' dentro del carrusel, y luego su h5
     const tituloElemento = document.querySelector('.carousel-item.active h5');
     
-    // B. Extraer el texto del título (ej: "Orgullo y prejuicio")
-    const titulo = tituloElemento ? tituloElemento.textContent.trim() : ""; // .trim() quita espacios extra
-    
-    // C. Lógica IF/ELSE/THEN
+    //extraer el texto del titulo
+    const titulo = tituloElemento ? tituloElemento.textContent.trim() : ""; // .trim() saca espacios
     if (titulo === "Orgullo y prejuicio") {
         sinopsisDiv.textContent = "Orgullo y Prejuicio narra la historia de Elizabeth Bennet, una joven inteligente y perspicaz que forma parte de una familia de clase media con cinco hermanas. La vida de Elizabeth se complica cuando conoce al adinerado y orgulloso Sr. Darcy. Inicialmente, ambos se sienten repelidos por los defectos del otro: Elizabeth por su orgullo y Darcy por sus prejuicios hacia su familia y posición social. A medida que se enfrentan a malentendidos, diferencias sociales y rivalidades familiares, aprenden a superar sus errores y prejuicios. La novela explora temas como el matrimonio, la posición social, el amor verdadero y la importancia de la introspección.";
     } else if (titulo === "Emma") {
