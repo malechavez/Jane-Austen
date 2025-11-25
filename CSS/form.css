@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Quintessential&display=swap');
+
+body {
+    background-color: #E9CF99;
+}
+
+.navbar {
+    background-color: #8C523B;
+}
+.navbar-nav .nav-item {
+    color: #43231B;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav .active {
+    color: #E9CF99 !important; 
+}
+
+.bienvenido {
+    color: #43231B;
+    font-family: "Fleur De Leah", Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    font-size: clamp(32px, 6vw, 64px);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.error {
+    color: #43231B;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    font-size: clamp(16px, 4vw, 20px);
+    
+}
+input[type=password],[type=email], textarea{
+    color: #43231B;
+    border: none;
+    font-size: 16px;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.btn-enviar{
+    margin-bottom: 32px;
+    margin-top: 12px;
+    padding: 8px;
+    background-color: #8F8360;
+    color: #43231B;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#boton:hover{
+    background-color: #EEAC7E;
+}
+
+#boton {
+    margin-bottom: 32px;
+    margin-top: 12px;
+    padding: 8px;
+    background-color: #8F8360;
+    color: #43231B;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#form_login {
+    background-color:#43231B;
+    text-align: center;
+    margin:  8px auto;
+    padding: 10px;
+    border-radius: 3%;
+    width: 60%;
+    max-width: 500px;
+}

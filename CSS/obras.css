@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Quintessential&display=swap');
+
+body {
+    background-color: #E9CF99;
+}
+
+.navbar {
+    background-color: #8C523B;
+}
+.navbar-nav .nav-item {
+    color: #43231B;
+    font-family: Quintessential, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav .active {
+    color: #E9CF99 !important; 
+}
+
+/*Obras*/
+.carrousel-control-prev-icon, .carrousel-control-next-icon {
+    color: #43231B;
+}
+
+#sinopsis-texto {
+    color: #43231B;
+    font-family: "Quintessential", Verdana, Geneva, Tahoma, sans-serif;
+
+}
